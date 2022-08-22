@@ -20,13 +20,16 @@ const Header = () => {
           >
             Vasu
           </h1>
+          <h1
+            class="name"
+            data-aos="slide-left"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+          >
+            anu
+          </h1>
         </div>
-        <nav class="nav">
-          <p class="each-nav">about me</p>
-          <p class="each-nav">skills</p>
-          <p class="each-nav">projects</p>
-          <p class="each-nav">contact</p>
-        </nav>
       </div>
     </>
   );
