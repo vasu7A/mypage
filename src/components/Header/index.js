@@ -22,7 +22,16 @@ const Header = () => {
           </h1>
           <h1
             class="name"
-            data-aos="slide-left"
+            data-aos="fade-out"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="2000"
+          >
+            loves
+          </h1>
+          <h1
+            class="name"
+            data-aos="slide-right"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
             data-aos-duration="2000"
