@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+.name {
+  padding-left: 10px;
+  font-family: cursive;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.each-nav {
+  padding-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
